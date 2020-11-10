@@ -1,0 +1,115 @@
+/* General elements for website */
+body {
+  margin: 0;
+  padding-top: 150px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #625a56;
+  background-image: url(/images/paws_background.png);
+  background-repeat: repeat;
+}
+
+#nav {
+  background-color: #cdffff;
+  width: 80%;
+  height: 110px;
+  margin-left: 10%;
+  padding: 20px 0 5px 0;
+  border-top: solid 8px #008080;
+  border: solid 4px #008080;
+  box-shadow: 10px 10px 10px #ccc;
+  position: absolute;
+  top: 0;
+}
+
+#title {
+  color: #625a56;
+  margin: auto;
+  font-family: "Baloo Bhaina";
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 50px;
+}
+
+img {
+  width: 100%;
+}
+
+.background {
+  background-color: #cdffff;
+  border: solid 4px #008080;
+  box-shadow: 10px 10px 10px #ccc;
+}
+
+
+.nav-align {
+  text-align: center;
+  padding-top: 32px;
+}
+
+.button {
+  background-color: #004080;
+  padding: 0.3vw 3vw;
+  border-radius: 30px;
+  cursor: pointer;
+  display: inline-block;
+  color: #fff;
+}
+/********************************/
+
+/* Elements for courses page */
+.course_name {
+  border: solid 2px;
+  border-radius: 8px;
+  text-align: center;
+  background-color: #FFFFFF;
+}
+/*****************************/
+
+/* Elements for trainers page */
+.trainer_box {
+  box-shadow: 10px 10px 10px #ccc;
+  border: solid 4px #008080;
+  padding-top: 12px;
+  margin-left: auto;
+  margin-right: auto;
+
+  background-color: #cdffff;
+
+}
+
+.trainer_name {
+  text-align: center;
+  border: solid 2px;
+  border-radius: 5px;
+  margin-top: 2px;
+  margin-bottom: 2px;
+
+  background-color: #e7ffff;
+}
+/******************************/
+
+/* Elements for clients page */
+.client_box {
+  box-shadow: 10px 10px 10px #ccc;
+  border: solid 4px #008080;
+  padding-top: 12px;
+  margin-left: auto;
+  margin-right: auto;
+
+  background-color: #cdffff;
+}
+
+.client_name {
+  text-align: center;
+  border: solid 2px;
+  border-radius: 5px;
+  margin-top: 2px;
+  margin-bottom: 2px;
+
+  background-color: #e7ffff;
+}
+/*****************************/
+
+/* Elements for location page */
+
+/******************************/
