@@ -8,8 +8,7 @@ const express = require("express"),
     layouts = require("express-ejs-layouts"),
     mongoose = require("mongoose");
 
-const token = require("./token.js")
-mongoose.connect(token, {useUnifiedTopology: true, useNewUrlParser: true});
+mongoose.connect('mongodb+srv://mplicinski:mplicinski@cluster0-q3jhu.gcp.mongodb.net/dog_training_db?retryWrites=true&w=majority', {useUnifiedTopology: true, useNewUrlParser: true});
 
 mongoose.set("useCreateIndex", true);
 app.set("view engine", "ejs");
